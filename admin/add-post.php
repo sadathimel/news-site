@@ -4,7 +4,7 @@
          <div class="row">
              <div class="col-md-12">
                  <h1 class="admin-heading">Add New Post</h1>
-             </div>
+             </div>q
               <div class="col-md-offset-3 col-md-6">
                   <!-- Form -->
                   <form  action="save-post.php" method="POST" enctype="multipart/form-data">
@@ -19,7 +19,7 @@
                       <div class="form-group">
                           <label for="exampleInputPassword1">Category</label>
                           <select name="category" class="form-control">
-                              <option disabled=""> Select Category</option>
+                              <option disabled> Select Category</option>
                               <?php 
                                 include "config.php";
                                 $sql = "SELECT * FROM category";
